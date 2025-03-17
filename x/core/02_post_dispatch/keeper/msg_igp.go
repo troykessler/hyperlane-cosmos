@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/02_post_dispatch/types"
+	"github.com/troykessler/hyperlane-cosmos/x/core/02_post_dispatch/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/util"
 )
 
 func (ms msgServer) Claim(ctx context.Context, req *types.MsgClaim) (*types.MsgClaimResponse, error) {

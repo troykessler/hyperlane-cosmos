@@ -1,11 +1,11 @@
 package types_test
 
 import (
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types"
 )
 
 /*

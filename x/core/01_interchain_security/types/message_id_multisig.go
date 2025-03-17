@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/util"
 )
 
 var _ HyperlaneInterchainSecurityModule = &MessageIdMultisigISM{}

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/spf13/cobra"
+	"github.com/troykessler/hyperlane-cosmos/util"
 )
 
 var PRIVATE_KEYS = []string{

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	i "github.com/bcp-innovations/hyperlane-cosmos/tests/integration"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/keeper"
 	"github.com/cosmos/gogoproto/proto"
+	i "github.com/troykessler/hyperlane-cosmos/tests/integration"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/keeper"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

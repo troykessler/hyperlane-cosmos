@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/02_post_dispatch/types"
+	"github.com/troykessler/hyperlane-cosmos/x/core/02_post_dispatch/types"
 
 	"cosmossdk.io/math"
 

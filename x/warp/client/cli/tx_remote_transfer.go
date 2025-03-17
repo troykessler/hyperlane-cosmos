@@ -13,8 +13,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	"github.com/spf13/cobra"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/types"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/types"
 )
 
 func CmdRemoteTransfer() *cobra.Command {

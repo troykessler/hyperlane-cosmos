@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/tests/simapp"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
+	"github.com/troykessler/hyperlane-cosmos/tests/simapp"
 )
 
 //go:embed sample_config/*

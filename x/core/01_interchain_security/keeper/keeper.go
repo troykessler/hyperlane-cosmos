@@ -6,9 +6,9 @@ import (
 	"cosmossdk.io/collections"
 	storetypes "cosmossdk.io/core/store"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types"
 	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types"
 )
 
 // Keeper is used to handle all core implementations of ISMs and implements the

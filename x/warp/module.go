@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/client/cli"
-	keeper2 "github.com/bcp-innovations/hyperlane-cosmos/x/warp/keeper"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/types"
 	"github.com/spf13/cobra"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/client/cli"
+	keeper2 "github.com/troykessler/hyperlane-cosmos/x/warp/keeper"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/types"
 
 	"cosmossdk.io/core/appmodule"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/runtime"

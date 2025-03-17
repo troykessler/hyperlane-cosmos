@@ -32,4 +32,4 @@ To run the test suite:
 make test
 ```
 
-More information can be found in the [Contributing](https://github.com/bcp-innovations/hyperlane-cosmos/blob/main/CONTRIBUTING.md).
+More information can be found in the [Contributing](https://github.com/troykessler/hyperlane-cosmos/blob/main/CONTRIBUTING.md).

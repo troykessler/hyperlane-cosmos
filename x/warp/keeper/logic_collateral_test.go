@@ -6,13 +6,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	i "github.com/bcp-innovations/hyperlane-cosmos/tests/integration"
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	coreTypes "github.com/bcp-innovations/hyperlane-cosmos/x/core/types"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	i "github.com/troykessler/hyperlane-cosmos/tests/integration"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	coreTypes "github.com/troykessler/hyperlane-cosmos/x/core/types"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/types"
 )
 
 /*

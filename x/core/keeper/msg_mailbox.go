@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/core/types"
 )
 
 func (ms msgServer) CreateMailbox(ctx context.Context, req *types.MsgCreateMailbox) (*types.MsgCreateMailboxResponse, error) {

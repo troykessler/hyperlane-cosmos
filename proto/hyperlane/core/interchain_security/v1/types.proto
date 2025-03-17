@@ -1,7 +1,7 @@
 syntax = "proto3";
 package hyperlane.core.interchain_security.v1;
 
-option go_package = "github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types";
+option go_package = "github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types";
 
 import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";
@@ -16,7 +16,7 @@ message MessageIdMultisigISM {
   // id ...
   string id = 1 [
     (gogoproto.customtype) =
-        "github.com/bcp-innovations/hyperlane-cosmos/util.HexAddress",
+        "github.com/troykessler/hyperlane-cosmos/util.HexAddress",
     (gogoproto.nullable) = false
   ];
 
@@ -41,7 +41,7 @@ message MerkleRootMultisigISM {
   // XXX ...
   string id = 1 [
     (gogoproto.customtype) =
-        "github.com/bcp-innovations/hyperlane-cosmos/util.HexAddress",
+        "github.com/troykessler/hyperlane-cosmos/util.HexAddress",
     (gogoproto.nullable) = false
   ];
 
@@ -66,7 +66,7 @@ message NoopISM {
   // id ...
   string id = 1 [
     (gogoproto.customtype) =
-        "github.com/bcp-innovations/hyperlane-cosmos/util.HexAddress",
+        "github.com/troykessler/hyperlane-cosmos/util.HexAddress",
     (gogoproto.nullable) = false
   ];
 

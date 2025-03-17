@@ -9,11 +9,11 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/util"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/types"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/types"
 )
 
 var _ types.QueryServer = queryServer{}

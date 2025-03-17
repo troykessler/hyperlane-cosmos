@@ -3,9 +3,9 @@ package util_test
 import (
 	"fmt"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	"github.com/troykessler/hyperlane-cosmos/util"
 )
 
 /*

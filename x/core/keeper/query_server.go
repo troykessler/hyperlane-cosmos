@@ -6,9 +6,9 @@ import (
 
 	"cosmossdk.io/collections"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/util"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/types"
+	"github.com/troykessler/hyperlane-cosmos/x/core/types"
 )
 
 var _ types.QueryServer = queryServer{}

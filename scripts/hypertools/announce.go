@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"log"
 
-	types2 "github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types"
+	types2 "github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/spf13/cobra"
+	"github.com/troykessler/hyperlane-cosmos/util"
 )
 
 func init() {

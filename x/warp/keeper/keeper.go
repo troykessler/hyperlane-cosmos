@@ -11,8 +11,8 @@ import (
 	storetypes "cosmossdk.io/core/store"
 	"cosmossdk.io/errors"
 
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/warp/types"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/warp/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 )

@@ -4,18 +4,18 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	types2 "github.com/bcp-innovations/hyperlane-cosmos/x/core/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"
+	types2 "github.com/troykessler/hyperlane-cosmos/x/core/types"
 
-	i "github.com/bcp-innovations/hyperlane-cosmos/tests/integration"
-	"github.com/bcp-innovations/hyperlane-cosmos/util"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/keeper"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/01_interchain_security/types"
-	keeper2 "github.com/bcp-innovations/hyperlane-cosmos/x/core/keeper"
 	"github.com/cosmos/gogoproto/proto"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
+	i "github.com/troykessler/hyperlane-cosmos/tests/integration"
+	"github.com/troykessler/hyperlane-cosmos/util"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/keeper"
+	"github.com/troykessler/hyperlane-cosmos/x/core/01_interchain_security/types"
+	keeper2 "github.com/troykessler/hyperlane-cosmos/x/core/keeper"
 )
 
 /*

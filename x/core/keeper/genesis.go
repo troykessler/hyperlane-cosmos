@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"cosmossdk.io/collections"
-	"github.com/bcp-innovations/hyperlane-cosmos/x/core/types"
+	"github.com/troykessler/hyperlane-cosmos/x/core/types"
 )
 
 // InitGenesis initializes the module state from a genesis state.
